@@ -16,16 +16,6 @@
   padding: 0;
 }
 
-/* ### Headings, Call-to-actions, Header Navigation
-
-font-family: 'Raleway', sans-serif;
-- Weights: 400, 700
-
-### Body
-
-font-family: 'Open Sans', sans-serif;
-- Weights: 400, 700 */
-
 body {
   background-color: var(--mainBackgroundBlue);
   color: var(--white);
@@ -45,6 +35,10 @@ h3 {
 h1 {
   font-size: 36px;
   margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 30px;
 }
 
 h3 {
@@ -118,6 +112,11 @@ h3 {
 .btn-get-started:hover {
   cursor: pointer;
   background: var(--btnHover);
+}
+
+.btn-free {
+  padding: 15px 40px;
+  margin-bottom: 0rem;
 }
 
 /* Products Section */
@@ -209,6 +208,34 @@ h3 {
 
 .position {
   font-size: 6px;
+}
+
+/* Access Section */
+
+.access-section {
+  background-color: var(--introEmailBackgroundBlue);
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+  margin: 10rem auto -4rem;
+  padding: 2.5rem;
+  width: 860px;
+  text-align: center;
+}
+
+.access-section p {
+  padding: 1.5rem 4.5rem 2.5rem;
+}
+
+input[type="text"] {
+  border-radius: 30px;
+  margin-right: 2rem;
+  padding: 15px 0;
+  text-indent: 2rem;
+  width: 460px;
+}
+
+::placeholder {
+  color: rgb(199, 199, 199);
 }
 
 /* Footer */
