@@ -216,8 +216,10 @@ h3 {
   background-color: var(--introEmailBackgroundBlue);
   border-radius: 10px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
-  margin: 10rem auto -4rem;
+  margin: 4rem auto 0;
   padding: 2.5rem;
+  position: relative;
+  top: 8rem;
   width: 860px;
   text-align: center;
 }
@@ -238,16 +240,21 @@ input[type="text"] {
   color: rgb(199, 199, 199);
 }
 
+/* Bottom Section */
+
+.bottom-section {
+  background-color: var(--footerBackgroundBlue);
+  padding: 12.5rem 5rem 5rem;
+}
+
 /* Footer */
 
 .attribution {
-  color: black;
+  color: white;
   font-size: 11px;
-  margin-top: 2rem;
-  text-align: center;
 }
 .attribution a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
