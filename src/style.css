@@ -171,15 +171,19 @@ h3 {
 /* Testimonials Section */
 
 .testimonials-section {
-  background: url("images/bg-quotes.png");
-  background-repeat: no-repeat;
-  background-position: 8.75rem 0;
   display: grid;
   grid-template-columns: repeat(3, 355px);
   grid-gap: 2.5rem;
   justify-content: center;
   margin-top: 8rem;
   padding-top: 2rem;
+}
+
+.bg-quotes {
+  position: relative;
+  bottom: 4.5rem;
+  right: 2.5rem;
+  z-index: -1;
 }
 
 .testimonial {
