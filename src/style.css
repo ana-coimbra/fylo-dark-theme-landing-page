@@ -38,14 +38,18 @@ body {
 h1,
 h2,
 h3 {
-  font-size: 36px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
+}
+
+h1 {
+  font-size: 36px;
   margin-top: 4rem;
 }
 
 h3 {
-  font-size: 26px;
+  font-size: 20px;
+  margin-bottom: 0.5rem;
 }
 
 /* Nav Bar */
@@ -103,6 +107,22 @@ h3 {
 .btn-get-started:hover {
   cursor: pointer;
   background: var(--btnHover);
+}
+
+/* Products Section */
+
+.products-section {
+  display: grid;
+  grid-template-columns: repeat(2, 380px);
+  grid-gap: 6rem 8rem;
+  justify-content: center;
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.product img {
+  margin-bottom: 2rem;
+  height: 80px;
 }
 
 /* Footer */
