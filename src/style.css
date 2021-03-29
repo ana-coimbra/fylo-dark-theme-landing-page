@@ -5,6 +5,7 @@
   --testimonialsBackgroundBlue: hsl(219, 30%, 18%);
   --cyan: hsl(176, 68%, 64%);
   --blue: hsl(198, 60%, 50%);
+  --btnHover: #9ed9e2;
   --lightRed: hsl(0, 100%, 63%);
   --white: hsl(0, 0%, 100%);
 }
@@ -64,6 +65,12 @@ h3 {
   justify-items: end;
 }
 
+.nav-details p:hover {
+  cursor: pointer;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
 /* Hero Section */
 
 .hero {
@@ -82,6 +89,21 @@ h3 {
 }
 
 /* Buttons */
+.btn-get-started {
+  background: linear-gradient(to right, var(--cyan), var(--blue));
+  border: none;
+  border-radius: 30px;
+  color: var(--white);
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 18px 80px;
+}
+
+.btn-get-started:hover {
+  cursor: pointer;
+  background: var(--btnHover);
+}
 
 /* Footer */
 
