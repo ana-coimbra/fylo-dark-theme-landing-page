@@ -47,7 +47,6 @@ h3 {
 }
 
 /* Nav Bar */
-
 .nav {
   background-color: var(--introEmailBackgroundBlue);
   font-family: "Raleway", sans-serif;
@@ -71,7 +70,6 @@ h3 {
 }
 
 /* Hero Section */
-
 .hero {
   background: url("images/bg-curvy-desktop.svg");
   background-repeat: no-repeat;
@@ -120,7 +118,6 @@ h3 {
 }
 
 /* Products Section */
-
 .products-section {
   display: grid;
   grid-template-columns: repeat(2, 380px);
@@ -135,7 +132,6 @@ h3 {
 }
 
 /* Stay Productive Section */
-
 .productive-section {
   display: grid;
   grid-template-columns: auto 500px;
@@ -143,6 +139,10 @@ h3 {
   align-items: center;
   justify-content: center;
   margin-top: 10rem;
+}
+
+.productive-section h1 {
+  padding-right: 6.5rem;
 }
 
 .productive-info p {
@@ -169,7 +169,6 @@ h3 {
 }
 
 /* Testimonials Section */
-
 .testimonials-section {
   display: grid;
   grid-template-columns: repeat(3, 355px);
@@ -216,7 +215,6 @@ h3 {
 }
 
 /* Access Section */
-
 .access-section {
   background-color: var(--introEmailBackgroundBlue);
   border-radius: 10px;
@@ -237,7 +235,7 @@ input[type="text"] {
   border: none;
   border-radius: 30px;
   margin-right: 2rem;
-  padding: 16px 0;
+  padding: 16px;
   text-indent: 2rem;
   width: 460px;
 }
@@ -247,7 +245,6 @@ input[type="text"] {
 }
 
 /* Bottom Section */
-
 .bottom-section {
   background-color: var(--footerBackgroundBlue);
   padding: 12.5rem 5rem 3.5rem;
@@ -260,7 +257,6 @@ input[type="text"] {
 }
 
 /* Contacts */
-
 .contacts {
   display: grid;
   grid-template-columns: repeat(2, 320px);
@@ -277,7 +273,6 @@ input[type="text"] {
 }
 
 /* Pages */
-
 .pages {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -295,7 +290,6 @@ input[type="text"] {
 }
 
 /* Social Icons */
-
 .social-icons {
   display: flex;
   align-items: flex-start;
@@ -310,7 +304,7 @@ input[type="text"] {
   padding: 8px;
   text-align: center;
   vertical-align: middle;
-  width: 34px;
+  width: 32px;
 }
 
 .social-icons i:hover {
@@ -320,7 +314,6 @@ input[type="text"] {
 }
 
 /* Footer */
-
 .attribution {
   color: var(--white);
   font-size: 11px;
@@ -336,4 +329,169 @@ input[type="text"] {
   cursor: pointer;
   color: #fff;
   font-weight: 700;
+}
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+  }
+
+  h2,
+  h3 {
+    font-size: 18px;
+  }
+
+  /* Nav Bar */
+  .nav {
+    padding: 1.5rem 1.5rem 3.5rem;
+  }
+
+  .nav img {
+    width: 80px;
+  }
+
+  .nav-details {
+    font-size: 12px;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 1.5rem;
+  }
+
+  /* Hero Section */
+  .hero {
+    background: url("images/bg-curvy-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100vmax;
+    background-color: var(--introEmailBackgroundBlue);
+    grid-template-columns: 300px;
+  }
+
+  .hero .illustration-intro {
+    width: 300px;
+    margin-bottom: 2rem;
+  }
+
+  .hero p {
+    font-size: 14px;
+    padding: 0rem 0rem 2rem;
+  }
+
+  /* Buttons */
+  .btn-get-started {
+    font-size: 14px;
+    margin-bottom: 0rem;
+    padding: 16px 80px;
+  }
+
+  .btn-free {
+    padding: 16px 60px;
+    margin-bottom: 0rem;
+  }
+
+  /* Products Section */
+  .products-section {
+    grid-template-columns: 320px;
+    padding-top: 8rem;
+  }
+
+  .product img {
+    height: 60px;
+  }
+
+  /* Stay Productive Section */
+  .productive-section {
+    grid-template-columns: 300px;
+  }
+
+  .productive-section img {
+    width: 300px;
+  }
+
+  .productive-section h1 {
+    font-size: 18px;
+    padding-right: 0rem;
+  }
+
+  /* Testimonials Section */
+
+  .testimonials-section {
+    grid-template-columns: 300px;
+    grid-gap: 1.5rem;
+  }
+
+  .bg-quotes {
+    top: -1rem;
+    left: 0.5rem;
+    width: 25px;
+  }
+
+  .testimonial {
+    font-size: 11px;
+    padding: 1.5rem 1rem;
+    line-height: 2;
+  }
+
+  .user {
+    margin-top: 1rem;
+  }
+
+  .user-name {
+    font-size: 11px;
+  }
+
+  .position {
+    margin-top: -2.5px;
+    font-size: 8px;
+  }
+
+  /* Access Section */
+  .access-section {
+    padding: 2.5rem 1.5rem;
+    top: 6rem;
+    width: 320px;
+  }
+
+  .access-section p {
+    padding: 1rem 0rem 2rem;
+  }
+
+  input[type="text"] {
+    margin: 0 0 1.5rem;
+    padding: 15px;
+    text-indent: 1rem;
+    width: 255px;
+  }
+
+  ::placeholder {
+    font-size: 11px;
+  }
+
+  /* Bottom Section */
+  .bottom-section {
+    padding: 12.5rem 1.5rem 3.5rem;
+  }
+
+  .bottom-info {
+    grid-template-columns: 1fr;
+    grid-gap: 3.5rem;
+  }
+
+  /* Contacts */
+  .contacts {
+    grid-template-columns: 300px;
+    grid-gap: 0rem;
+  }
+
+  /* Pages */
+  .pages {
+    grid-template-columns: 300px;
+    grid-gap: 1rem;
+  }
+
+  /* Footer */
+  .attribution {
+    margin: 2.5rem 0 0;
+    text-align: center;
+  }
 }
