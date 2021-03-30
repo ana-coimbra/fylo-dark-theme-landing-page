@@ -33,12 +33,12 @@ h3 {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 38px;
   margin-bottom: 2rem;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 32px;
 }
 
 h3 {
@@ -53,6 +53,7 @@ h3 {
   display: grid;
   grid-template-columns: repeat(2, auto);
   justify-content: space-between;
+  font-size: 16px;
   padding: 4.5rem 5rem;
 }
 
@@ -206,12 +207,12 @@ h3 {
 }
 
 .user-name {
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 700;
 }
 
 .position {
-  font-size: 6px;
+  font-size: 8px;
 }
 
 /* Access Section */
@@ -436,13 +437,8 @@ input[type="text"] {
     margin-top: 1rem;
   }
 
-  .user-name {
-    font-size: 11px;
-  }
-
   .position {
-    margin-top: -2.5px;
-    font-size: 8px;
+    margin-top: -5px;
   }
 
   /* Access Section */
